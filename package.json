@@ -21,7 +21,7 @@
     "@astrojs/rss": "^2.1.1",
     "@astrojs/sitemap": "^1.0.1",
     "@unocss/astro": "^0.49.7",
-    "astro": "^2.0.14",
+    "astro": "^2.1.2",
     "sharp": "^0.31.3"
   },
   "devDependencies": {
