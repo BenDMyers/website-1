@@ -1,0 +1,19 @@
+---
+import Card from '/Users/jenn.junod/Desktop/Code/website/src/components/generic/Card.astro';
+
+import { Image } from '@astrojs/image/components';
+
+const src =
+'https://user-images.githubusercontent.com/77285384/224505131-b3c77b25-509d-4e3a-a3d3-928841b686db.png';
+
+---
+
+<Card color='white' extraClasses='md:col-span-3 !p-0'>
+    <Image
+    class='object-cover h-full w-full rounded'
+    src={src}
+    alt='HippityHop DND Character'
+    width={800}
+    height={800}
+    />
+</Card>
