@@ -25,6 +25,8 @@ const colors = [
   'rose',
   'sky',
   'amber',
+  'indigo',
+  'magenta',
 ];
 
 const getSafeList = () => {
